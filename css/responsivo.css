@@ -1,0 +1,14 @@
+@media screen and (max-width: 820px) {
+    .lula {
+        width: 100px;
+        left: 20px;
+    }
+
+    .bolsonaro {
+        width: 100px;
+    }
+
+    .pulo {
+        animation: pulo 1.8s ease-out linear;
+    }
+}

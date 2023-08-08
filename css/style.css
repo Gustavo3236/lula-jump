@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tela {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #000;
+    overflow: hidden;
+    background: url('../img/wallpaperflare.com_wallpaper\(3\).jpg') center no-repeat;
+    background-size: cover;
+}
+
+.video {
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bolsonaro {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+    animation: bolsonaro 2s linear infinite;
+}
+
+@keyframes bolsonaro {
+    from {
+        right: -10vw;
+    }
+
+    to {
+        right: 100vw;
+    }
+}
+
+.lula {
+    width: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+}
+
+.pulo {
+    animation: pulo 1s ease-out;
+}
+
+@keyframes pulo {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 280px;
+    }
+
+    50% {
+        bottom: 280px;
+    }
+
+    60% {
+        bottom: 280px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+.nuvens, .nuvens2 {
+    opacity: 0.55;
+    width: 300px;
+    position: absolute;
+}
+
+.nuvens {
+    top: 20px;
+    animation: nuvens 13s infinite linear;
+}
+
+@keyframes nuvens {
+    from {
+        right: -30vw;
+    }
+
+    to {
+        right: 100vw;
+    }
+}
+
+.nuvens2 {
+    top: 120px;
+    animation: nuvens2 20s infinite linear;
+}
+
+@keyframes nuvens2 {
+    from {
+        right: -60vw;
+    }
+
+    to {
+        right: 100vw;
+    }
+}
